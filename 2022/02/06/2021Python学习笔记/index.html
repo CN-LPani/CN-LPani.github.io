@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>2021Python学习笔记 | LP Blog</title><meta name="author" content="LPani"><meta name="copyright" content="LPani"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="print函数数字（如520，98.5）输出时不用引号 如print(520)和print(98.5) 也可以用引号 print(&amp;quot;520&amp;quot;)   字符串必须加引号 如print(&amp;quot;hello world&amp;quot;)   含有运算符的表达式像$1+3$ 其中1和3是操"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://cn-lpani.github.io/2022/02/06/2021Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//www.clarity.ms"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.12.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar@0.1.16/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.32/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>var _hmt = _hmt || [];
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>2021Python学习笔记 | LP Blog</title><meta name="author" content="LPani"><meta name="copyright" content="LPani"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="print函数数字（如520，98.5）输出时不用引号 如print(520)和print(98.5) 也可以用引号 print(&amp;quot;520&amp;quot;)  字符串必须加引号 如print(&amp;quot;hello world&amp;quot;)  含有运算符的表达式像$1+3$ 其中1和3是操作数"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://cn-lpani.github.io/2022/02/06/2021Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//www.clarity.ms"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.12.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar@0.1.16/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.32/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
   hm.src = "https://hm.baidu.com/hm.js?845b1686dcda5eadf85fbae5f90462c1";
@@ -54,7 +54,7 @@
   isHome: false,
   isHighlightShrink: undefined,
   isToc: true,
-  postUpdate: '2025-11-02 16:08:48'
+  postUpdate: '2025-11-08 23:59:35'
 }</script><script>(win=>{
       win.saveToLocal = {
         set: (key, value, ttl) => {
@@ -170,20 +170,17 @@
         }
       }
       detectApple()
-    })(window)</script><link rel="stylesheet" href="//at.alicdn.com/t/font_3172542_pft9hht19qk.css"><meta name="generator" content="Hexo 6.0.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/images/LPani.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">4</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list-ul"></i><span> 导航</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-basketball-ball"></i><span> 好玩的</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/picture/"><i class="fa-fw far fa-image"></i><span> 一些图片</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-heart"></i><span> 关于</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw iconfont icon-shijianzhou"></i><span> 时间轴</span></a></li><li><a class="site-page child" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友♂好链接</span></a></li><li><a class="site-page child" href="/about/"><i class="fa-fw far fa-address-card"></i><span> 我是？？？</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://jsd.cdn.zzko.cn/gh/CN-LPani/tu@main/2021Python学习笔记/2021python学习笔记.3orupxd9tem0.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="LP Blog"><span class="site-name">LP Blog</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list-ul"></i><span> 导航</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-basketball-ball"></i><span> 好玩的</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/picture/"><i class="fa-fw far fa-image"></i><span> 一些图片</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-heart"></i><span> 关于</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw iconfont icon-shijianzhou"></i><span> 时间轴</span></a></li><li><a class="site-page child" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友♂好链接</span></a></li><li><a class="site-page child" href="/about/"><i class="fa-fw far fa-address-card"></i><span> 我是？？？</span></a></li></ul></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">2021Python学习笔记</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="fa-fw post-meta-icon far fa-calendar-alt"></i><span class="post-meta-label">发表于</span><time datetime="2022-02-05T16:00:00.000Z" title="发表于 2022-02-06 00:00:00">2022-02-06</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">2.7k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>9分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="2021Python学习笔记"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span><span class="post-meta-separator">|</span><span class="post-meta-commentcount"><i class="far fa-comments fa-fw post-meta-icon"></i><span class="post-meta-label">评论数:</span><a href="/2022/02/06/2021Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/#post-comment"><span class="waline-comment-count" data-path="/2022/02/06/2021Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><i class="fa-solid fa-spinner fa-spin"></i></span></a></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h2 id="print函数"><a href="#print函数" class="headerlink" title="print函数"></a><strong>print函数</strong></h2><h4 id="数字"><a href="#数字" class="headerlink" title="数字"></a>数字</h4><p>（如520，98.5）输出时不用引号</p>
+    })(window)</script><link rel="stylesheet" href="//at.alicdn.com/t/font_3172542_pft9hht19qk.css"><meta name="generator" content="Hexo 6.0.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/images/LPani.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">4</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list-ul"></i><span> 导航</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-basketball-ball"></i><span> 好玩的</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/picture/"><i class="fa-fw far fa-image"></i><span> 一些图片</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-heart"></i><span> 关于</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw iconfont icon-shijianzhou"></i><span> 时间轴</span></a></li><li><a class="site-page child" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友♂好链接</span></a></li><li><a class="site-page child" href="/about/"><i class="fa-fw far fa-address-card"></i><span> 我是？？？</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="LP Blog"><span class="site-name">LP Blog</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list-ul"></i><span> 导航</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-basketball-ball"></i><span> 好玩的</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/picture/"><i class="fa-fw far fa-image"></i><span> 一些图片</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-heart"></i><span> 关于</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw iconfont icon-shijianzhou"></i><span> 时间轴</span></a></li><li><a class="site-page child" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友♂好链接</span></a></li><li><a class="site-page child" href="/about/"><i class="fa-fw far fa-address-card"></i><span> 我是？？？</span></a></li></ul></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">2021Python学习笔记</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="fa-fw post-meta-icon far fa-calendar-alt"></i><span class="post-meta-label">发表于</span><time datetime="2022-02-05T16:00:00.000Z" title="发表于 2022-02-06 00:00:00">2022-02-06</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">2.7k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>9分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="2021Python学习笔记"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span><span class="post-meta-separator">|</span><span class="post-meta-commentcount"><i class="far fa-comments fa-fw post-meta-icon"></i><span class="post-meta-label">评论数:</span><a href="/2022/02/06/2021Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/#post-comment"><span class="waline-comment-count" data-path="/2022/02/06/2021Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><i class="fa-solid fa-spinner fa-spin"></i></span></a></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h2 id="print函数"><a href="#print函数" class="headerlink" title="print函数"></a><strong>print函数</strong></h2><h4 id="数字"><a href="#数字" class="headerlink" title="数字"></a>数字</h4><p>（如520，98.5）输出时不用引号</p>
 <p>如<code>print(520)</code>和<code>print(98.5)</code></p>
 <p>也可以用引号 <code>print(&quot;520&quot;)</code></p>
-<br>
-
+<p><br></p>
 <h4 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h4><p>必须加引号</p>
 <p>如<code>print(&quot;hello world&quot;)</code></p>
-<br>
-
+<p><br></p>
 <h4 id="含有运算符的表达式"><a href="#含有运算符的表达式" class="headerlink" title="含有运算符的表达式"></a>含有运算符的表达式</h4><p>像$1+3$</p>
 <p>其中1和3是操作数，加号是运算符，含有两者叫做表达式</p>
 <p>如<code>print(3+1)</code> 那么它就输出4</p>
-<br>
-
+<p><br></p>
 <h4 id="输出到本地"><a href="#输出到本地" class="headerlink" title="输出到本地()"></a>输出到本地()</h4><p>如<code>open(&quot;E:/日你妈.txt&quot;,&quot;a+&quot;)</code></p>
 <ul>
 <li><p>其中<code>a</code>如果在<code>E:/</code>目录下没有<code>日你妈.txt</code>这个文件就创建一个，</p>
@@ -200,16 +197,13 @@
 <p>最后还可以把这个变量关掉</p>
 <p>输入<code>F.close()</code></p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">F = <span class="built_in">open</span>(<span class="string">&quot;E:/日你妈.txt&quot;</span>,<span class="string">&quot;a+&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;haha&quot;</span>,file=F)</span><br><span class="line">F.close()</span><br></pre></td></tr></table></figure>
-
-<br>
-
+<p><br></p>
 <h4 id="不换行输出"><a href="#不换行输出" class="headerlink" title="不换行输出"></a>不换行输出</h4><p>如<code>print(&quot;hello&quot;,&quot;world&quot;,&quot;python&quot;)</code></p>
-<br>
-
-<h2 id="一些转义字符"><a href="#一些转义字符" class="headerlink" title="一些转义字符"></a>一些转义字符</h2><p><code>\n </code>     换行（<code>n</code>指的是newline）</p>
+<p><br></p>
+<h2 id="一些转义字符"><a href="#一些转义字符" class="headerlink" title="一些转义字符"></a>一些转义字符</h2><p><code>\n</code>     换行（<code>n</code>指的是newline）</p>
 <p><code>\r</code>       回车</p>
-<p><code>\t  </code>     水平制表符</p>
-<p><code>\b </code>      退格</p>
+<p><code>\t</code>     水平制表符</p>
+<p><code>\b</code>      退格</p>
 <p>其中 \ 是转义功能的首字母</p>
 <p>输入<code>print(&quot;hello\nworld&quot;)</code></p>
 <p>那么它就会输出<br><code>hello</code><br><code>world</code></p>
@@ -217,23 +211,19 @@
 <p>那么它就会输出</p>
 <p><code>hello    world</code></p>
 <p>就是一组四个空格的位置</p>
-<p>具体了解<a target="_blank" href="https://www.bilibili.com/video/BV1Sw411Z779?p=7&t=159.6" rel="external nofollow noreferrer noopener">Python教程全套完全入门版转义字符与原字符</a></p>
+<p>具体了解<a target="_blank" href="https://www.bilibili.com/video/BV1Sw411Z779?p=7&amp;t=159.6" rel="external nofollow noreferrer noopener">Python教程全套完全入门版转义字符与原字符</a></p>
 <p>输入<code>print(&quot;hello\rworld&quot;)</code></p>
 <p>那么它就会输出</p>
 <p><code>world</code></p>
 <p>直接把hello覆盖掉了</p>
-<br>
-
+<p><br></p>
 <blockquote>
 <p>在输入<code>print(&quot;https:\\www.baidu.com&quot;)</code>时</p>
-</blockquote>
-<blockquote>
 <p>它会只输出<code>https:\www.baidu.com</code></p>
 <p>这时候要多加一个或两个<u>反斜杠</u></p>
 <p>因为它把第二个反斜杠看成了转义字符首字母，就自动隐藏了</p>
 </blockquote>
-<br>
-
+<p><br></p>
 <h2 id="原字符"><a href="#原字符" class="headerlink" title="原字符"></a><strong>原字符</strong></h2><p><u>不希望字符串中的转义字符起作用，就使用原字符</u></p>
 <p>假如我们输入<code>print(&quot;hello\nworld&quot;)</code></p>
 <p>那么它就会输出</p>
@@ -253,28 +243,21 @@
 </blockquote>
 </li>
 </ul>
-<br>
-
+<p><br></p>
 <h2 id="二进制与字符编码"><a href="#二进制与字符编码" class="headerlink" title="二进制与字符编码"></a><strong>二进制与字符编码</strong></h2><p><u>什么叫做二进制和字符编码</u></p>
-<p><a target="_blank" href="https://www.bilibili.com/video/BV1Sw411Z779?p=8&t=42.4" rel="external nofollow noreferrer noopener">Python教程全套完全入门版二进制与字符编码</a></p>
+<p><a target="_blank" href="https://www.bilibili.com/video/BV1Sw411Z779?p=8&amp;t=42.4" rel="external nofollow noreferrer noopener">Python教程全套完全入门版二进制与字符编码</a></p>
 <p>一个位置可以写上0或1</p>
-<p>设有a个位置，那就有$$2^a$$个位置</p>
-<img src="https://jsd.cdn.zzko.cn/gh/CN-LPani/tu@main/2021Python学习笔记/379f9d9eaab32674b12e2dc0cd08dc3e.6yoca5is8ng0.jpg" alt="无标题.png" style="zoom:110%;">
-
+<p>设有a个位置，那就有<script type="math/tex">2^a</script>个位置</p>
+<p><img src="https://jsd.cdn.zzko.cn/gh/CN-LPani/tu@main/2021Python学习笔记/379f9d9eaab32674b12e2dc0cd08dc3e.6yoca5is8ng0.jpg" alt="无标题.png" style="zoom:110%;"></p>
 <ul>
-<li><p>8个位置（$2^8$&#x3D;256）称为1字节（即8bit&#x3D;1bite）</p>
-</li>
-<li><p>1024bite&#x3D;1KB(千字节)</p>
-</li>
-<li><p>1024KB&#x3D;1MB（兆字节）</p>
-</li>
-<li><p>1024MB&#x3D;1GB（吉字节）</p>
-</li>
-<li><p>1024GB&#x3D;1TB(太字节)</p>
-<br>
-
+<li>8个位置（$2^8$=256）称为1字节（即8bit=1bite）</li>
+<li>1024bite=1KB(千字节)</li>
+<li>1024KB=1MB（兆字节）</li>
+<li>1024MB=1GB（吉字节）</li>
+<li><p>1024GB=1TB(太字节)</p>
+<p><br></p>
 <p><u>各种字符编码</u></p>
-<p><img src="https://jsd.cdn.zzko.cn/gh/CN-LPani/tu@main/2021Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/a0e6c63540f1466725becd0d849e68b3.scw3ehox6q8.jpg" alt="截图"></p>
+<p><img src="https://jsd.cdn.zzko.cn/gh/CN-LPani/tu@main/2021Python学习笔记/a0e6c63540f1466725becd0d849e68b3.scw3ehox6q8.jpg" alt="截图"></p>
 </li>
 </ul>
 <h4 id="chr函数"><a href="#chr函数" class="headerlink" title="chr函数"></a>chr函数</h4><p><code>乘</code>十六进制是4e58，那么它的二进制是<code>0100111001011000</code></p>
@@ -288,8 +271,7 @@
 </blockquote>
 </li>
 </ol>
-<br>
-
+<p><br></p>
 <h4 id="ord函数"><a href="#ord函数" class="headerlink" title="ord函数"></a>ord函数</h4><ol>
 <li>输入<code>print(ord(”“))</code></li>
 <li>再把<code>乘</code>丢进去，即<code>print(ord(&quot;乘&quot;))</code>，那么它就会输出<code>20056</code><blockquote>
@@ -297,23 +279,19 @@
 </blockquote>
 </li>
 </ol>
-<br>
-
+<p><br></p>
 <ul>
 <li>注意：chr函数括号内<u>不用加引号</u>，ord函括号内<u>要加引号</u></li>
 <li>不管是几进制，转到计算机中都是二进制，因为计算机只识别二进制</li>
 <li>chr函数不仅能搞二进制，还能搞八进制等各种进制，如<code>print(chr(20056))</code></li>
 </ul>
-<br>
-
+<p><br></p>
 <h2 id="保留字"><a href="#保留字" class="headerlink" title="保留字"></a>保留字</h2><p>在Python中<u>不可以给对象命名</u>的单词，</p>
 <p>如你在给新的Python文件命名时或设置变量时不可以使用</p>
 <h4 id="怎么查询保留字"><a href="#怎么查询保留字" class="headerlink" title="怎么查询保留字"></a>怎么查询保留字</h4><p>输入</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> keyword</span><br><span class="line"><span class="built_in">print</span>(keyword.kwlist)</span><br></pre></td></tr></table></figure>
-
 <p>那么它就会输出所有的保留字</p>
-<br>
-
+<p><br></p>
 <h4 id="标识符"><a href="#标识符" class="headerlink" title="标识符"></a><strong>标识符</strong></h4><p>在<u>给对象起的名字</u>叫做标识符</p>
 <p><u>规则如下</u></p>
 <ul>
@@ -322,25 +300,22 @@
 <li>不能是保留字</li>
 <li>我是严格区分大小写的</li>
 </ul>
-<br>
-
+<p><br></p>
 <h2 id="变量"><a href="#变量" class="headerlink" title="变量"></a><strong>变量</strong></h2><p>变量是内存中一个<u>带标签的盒子</u></p>
-<p><img src="https://jsd.cdn.zzko.cn/gh/CN-LPani/tu@main/2021Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/4a8d7ba6255458e24b9e80588b6f2df4.31t5dtucryo0.jpg" alt="截图"></p>
+<p><img src="https://jsd.cdn.zzko.cn/gh/CN-LPani/tu@main/2021Python学习笔记/4a8d7ba6255458e24b9e80588b6f2df4.31t5dtucryo0.jpg" alt="截图"></p>
 <p>把<code>马丽亚</code>放进变量里</p>
 <p>输入<code>name=&quot;马丽亚&quot;</code></p>
 <p>其中name即变量名（标识符），可在标识符原则下随便取</p>
 <p><code>&quot;马丽亚&quot;</code>是字符串</p>
-<p><img src="https://jsd.cdn.zzko.cn/gh/CN-LPani/tu@main/2021Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/0ca45b24d3caef8b5efc2b9f40f68c17.3ykne84umq80.jpg" alt="截图"></p>
-<br>
-
+<p><img src="https://jsd.cdn.zzko.cn/gh/CN-LPani/tu@main/2021Python学习笔记/0ca45b24d3caef8b5efc2b9f40f68c17.3ykne84umq80.jpg" alt="截图"></p>
+<p><br></p>
 <h4 id="变量的定义和使用"><a href="#变量的定义和使用" class="headerlink" title="变量的定义和使用"></a>变量的定义和使用</h4><p>变量由<u>标识、类型和值</u>三部分组成</p>
 <ul>
-<li><p>标识：表示对象<u>所存储的内存地址</u>，使用内置函数<code>id(obj)</code>来获取  </p>
-</li>
-<li><p>类型：表示的是对象的<u>数据类型</u>，使用内置函数<code>type(obj)</code>来获取 </p>
-</li>
+<li>标识：表示对象<u>所存储的内存地址</u>，使用内置函数<code>id(obj)</code>来获取  </li>
+<li>类型：表示的是对象的<u>数据类型</u>，使用内置函数<code>type(obj)</code>来获取 </li>
 <li><p>值：表示对象<u>所存储的具体数据</u>（即刚才的<code>马丽亚</code>）, 使用<code>print(obj)</code>可以将值进行打印输出</p>
-<br></li>
+<p><br></p>
+</li>
 </ul>
 <h4 id="如何获取标识、类型和值"><a href="#如何获取标识、类型和值" class="headerlink" title="如何获取标识、类型和值"></a>如何获取标识、类型和值</h4><p>先了解一点</p>
 <ul>
@@ -356,27 +331,22 @@
 <p>输入<code>print(name)</code></p>
 <p>输出的就是这个变量中的值</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">name=<span class="string">&quot;马丽亚&quot;</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">id</span>(name))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(name))</span><br><span class="line"><span class="built_in">print</span>(name)</span><br></pre></td></tr></table></figure>
-
-<br>
-
+<p><br></p>
 <h4 id="变量的多次赋值"><a href="#变量的多次赋值" class="headerlink" title="变量的多次赋值"></a><strong>变量的多次赋值</strong></h4><p>当我们输入</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">name=<span class="string">&quot;马丽亚&quot;</span></span><br><span class="line">name=<span class="string">&quot;楚溜冰&quot;</span></span><br></pre></td></tr></table></figure>
-
 <p>时</p>
 <p>再输入<code>print(name)</code> 它就会输出<code>楚溜冰</code></p>
 <p>那<code>马丽亚</code>就不会被使用，将会被视为内存垃圾，</p>
 <p>Python的垃圾回收机制会对这个垃圾进行一个回收</p>
-<p><img src="https://jsd.cdn.zzko.cn/gh/CN-LPani/tu@main/2021Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/8ff0e394fb9cec25bfa1d85ececdfc74.as9dbyqrg3s.jpg" alt="截图"></p>
-<br>
-
+<p><img src="https://jsd.cdn.zzko.cn/gh/CN-LPani/tu@main/2021Python学习笔记/8ff0e394fb9cec25bfa1d85ececdfc74.as9dbyqrg3s.jpg" alt="截图"></p>
+<p><br></p>
 <h2 id="常见的数据类型"><a href="#常见的数据类型" class="headerlink" title="常见的数据类型"></a><strong>常见的数据类型</strong></h2><ul>
 <li>int     整数类型         如98（不带小数点和引号的）</li>
 <li>float  浮点数类型       如3.14159、9.8、5.6、33.9</li>
 <li>bool  布尔类型    只能取两个值，这两个值就是<code>true</code>或者<code>false</code>，用来表示<u>真</u>或者<u>假</u></li>
 <li>str     字符串类型      只要加上引号的就称为字符串类型，如”hello world”</li>
 </ul>
-<br>
-
+<p><br></p>
 <h4 id="整数类型（integer，简写为int）"><a href="#整数类型（integer，简写为int）" class="headerlink" title="整数类型（integer，简写为int）"></a>整数类型（integer，简写为int）</h4><p>英文为integer, 简写为int, 可以表示<u>正数、负数和零</u>，但<u>绝对不能有小数点和引号</u></p>
 <blockquote>
 <p>整数的不同进制表示方式</p>
@@ -386,14 +356,13 @@
 <li>八进制→以<code>0o</code>开头</li>
 <li>十六进制→<code>0x</code>开头</li>
 </ul>
-<p><img src="https://jsd.cdn.zzko.cn/gh/CN-LPani/tu@main/2021Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/aad19126b424eee043564f5d4b26b5da.76o5ga5806g0.jpg" alt="截图"></p>
+<p><img src="https://jsd.cdn.zzko.cn/gh/CN-LPani/tu@main/2021Python学习笔记/aad19126b424eee043564f5d4b26b5da.76o5ga5806g0.jpg" alt="截图"></p>
 </blockquote>
 <ol>
 <li>把随意一些整数类型存入变量当中，如输入<code>n1=98</code> <code>n2=56</code> <code>n3=22</code>（设置多个变量）</li>
 <li>输入<code>print(type(n1),type(n2),type(n3))</code>，输出的都是int，即整数类型</li>
 </ol>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">n1=<span class="number">98</span></span><br><span class="line">n2=<span class="number">56</span></span><br><span class="line">n3=<span class="number">22</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(n1),<span class="built_in">type</span>(n2),<span class="built_in">type</span>(n3))</span><br></pre></td></tr></table></figure>
-
 <p>将<u>二进制、十进制、八进制、十六进制</u>转换成<u>十进制</u></p>
 <p>输入<code>print(118)</code>（十进制）</p>
 <p>那么它就会输出<code>118</code>（十进制）</p>
@@ -404,14 +373,11 @@
 <p>输入<code>print(0x4e58)</code>（十六进制）</p>
 <p>那么它就会输出<code>20056</code>（十进制）</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="number">118</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="number">0b1010110</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="number">0o55555</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="number">0x4e58</span>)</span><br></pre></td></tr></table></figure>
-
-<br>
-
+<p><br></p>
 <h4 id="浮点数类型"><a href="#浮点数类型" class="headerlink" title="浮点数类型"></a>浮点数类型</h4><p>包括<u>整数和小数</u>部分，如3.141596535、33.56、2.33</p>
 <blockquote>
 <p>输入</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">a=<span class="number">3.14</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(a))</span><br></pre></td></tr></table></figure>
-
 <p>时</p>
 <p>它输出的是<code>&lt;class &#39;float&#39;&gt;</code>，即浮点数类型</p>
 </blockquote>
@@ -430,11 +396,9 @@
 <p>解决方案</p>
 <p>导入模块<u>decimal</u>再去计算</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> decimal <span class="keyword">import</span> Decimal</span><br><span class="line"><span class="built_in">print</span>(Decimal(<span class="string">&quot;1.1&quot;</span>)+Decimal(<span class="string">&quot;2.2&quot;</span>))</span><br></pre></td></tr></table></figure>
-
 <p>结果输出的就是<code>3.3</code></p>
 </blockquote>
-<br>
-
+<p><br></p>
 <h4 id="布尔类型（bool，全称Boolean）"><a href="#布尔类型（bool，全称Boolean）" class="headerlink" title="布尔类型（bool，全称Boolean）"></a>布尔类型（bool，全称Boolean）</h4><p>用来表示<u>真或假</u>的值 </p>
 <p>True 表示真，False 表示假</p>
 <ul>
@@ -443,20 +407,16 @@
 </ul>
 <p>输入</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">b=<span class="literal">True</span></span><br><span class="line">c=<span class="literal">False</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(b),<span class="built_in">type</span>(c))</span><br></pre></td></tr></table></figure>
-
 <p>它就会输出<code>&lt;class &#39;bool&#39;&gt; &lt;class &#39;bool&#39;&gt;</code>，即布尔类型</p>
 <blockquote>
 <p>转成整数计算</p>
 <p>如输入</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="literal">True</span>+<span class="number">1</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="literal">False</span>+<span class="number">1</span>)</span><br></pre></td></tr></table></figure>
-
 <p>那么它就会输出</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">2</span></span><br><span class="line"><span class="number">1</span></span><br></pre></td></tr></table></figure>
-
 <p>就相当于把<code>True</code>和<code>False</code>分别当成1和2看</p>
 </blockquote>
-<br>
-
+<p><br></p>
 <h4 id="字符串类型"><a href="#字符串类型" class="headerlink" title="字符串类型"></a>字符串类型</h4><ul>
 <li>字符串又被称为<u>不可变的字符序列</u></li>
 <li>可以使用<u>单引号、双引号或三引号</u>来定义</li>
@@ -464,20 +424,18 @@
 <li>三引号定义的字符串可以<u>分布在连续的多行</u></li>
 </ul>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#单引号</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;hello world&#x27;</span>)</span><br><span class="line"><span class="comment">#双引号</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;hello world&quot;</span>)</span><br><span class="line"><span class="comment">#三引号</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;&quot;&quot;hello</span></span><br><span class="line"><span class="string">world&quot;&quot;&quot;</span>)</span><br></pre></td></tr></table></figure>
-
 <p>其中三引号像这样输入那么它输出的就是</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hello</span><br><span class="line">world</span><br></pre></td></tr></table></figure>
-
 <ul>
 <li><p>三引号有两种召唤方式</p>
 <p>按三下双引号，即<code>&quot;&quot;&quot;&quot;&quot;&quot;</code></p>
 <p>按三下单引号，即<code>&#39;&#39;&#39;&#39;&#39;&#39;</code></p>
 <p>例如</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#输入</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;&quot;&quot;hello</span></span><br><span class="line"><span class="string">world&quot;&quot;&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;&#x27;&#x27;hello</span></span><br><span class="line"><span class="string">world&#x27;&#x27;&#x27;</span>)</span><br></pre></td></tr></table></figure>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#输出</span></span><br><span class="line">hello</span><br><span class="line">world</span><br><span class="line">hello</span><br><span class="line">world</span><br></pre></td></tr></table></figure></li>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#输出</span></span><br><span class="line">hello</span><br><span class="line">world</span><br><span class="line">hello</span><br><span class="line">world</span><br></pre></td></tr></table></figure>
+</li>
 </ul>
-<br>
-
+<p><br></p>
 <h4 id="数据类型转换"><a href="#数据类型转换" class="headerlink" title="数据类型转换"></a><strong>数据类型转换</strong></h4><ul>
 <li><p>为什么需要数据类型转换？</p>
 <p>将不同数据类型的数据拼接在一起</p>
@@ -487,10 +445,8 @@
 <p>我想让它输出<code>我叫 楚溜冰 我今年 20 岁了</code></p>
 <p>直接输入</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">name=<span class="string">&quot;楚溜冰&quot;</span></span><br><span class="line">age=<span class="number">20</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(name),<span class="built_in">type</span>(age))</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;我叫&quot;</span>,name,<span class="string">&quot;我今年&quot;</span>,age,<span class="string">&quot;岁了&quot;</span>)</span><br></pre></td></tr></table></figure>
-
 <p>还有一种方法，通过加号（连接符）连接（把逗号换成了加号）</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">name=<span class="string">&quot;楚溜冰&quot;</span></span><br><span class="line">age=<span class="number">20</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(name),<span class="built_in">type</span>(age))</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;我叫&quot;</span>+name+<span class="string">&quot;我今年&quot;</span>+age+<span class="string">&quot;岁了&quot;</span>)</span><br></pre></td></tr></table></figure>
-
 <p>但是它会报错（TypeError: can only concatenate str (not “int”) to str）</p>
 <p>意思是str和int格式不能连接在一起（name和age）</p>
 <ul>
@@ -502,24 +458,22 @@
 </li>
 </ul>
 <p>用连接符和用逗号的区别是前者没有空格，后者有空格</p>
-<br>
-
+<p><br></p>
 <h4 id="数据类型转换函数"><a href="#数据类型转换函数" class="headerlink" title="数据类型转换函数"></a>数据类型转换函数</h4><p><code>str()</code>将其它数据类型转换成str，即字符串</p>
 <p><code>int()</code>将其它数据类型转换成int，即整数</p>
 <p><code>float()</code>将其它数据类型转换成float，即浮点数</p>
-<p><img src="https://jsd.cdn.zzko.cn/gh/CN-LPani/tu@main/2021Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/f035d0f603f2414512801d9f5ddb44cc.3zkakt6d01g0.jpg" alt="截图"></p>
-<br>
-
+<p><img src="https://jsd.cdn.zzko.cn/gh/CN-LPani/tu@main/2021Python学习笔记/f035d0f603f2414512801d9f5ddb44cc.3zkakt6d01g0.jpg" alt="截图"></p>
+<p><br></p>
 <h2 id="计算"><a href="#计算" class="headerlink" title="计算"></a>计算</h2><p>➕       加法</p>
 <p>➖       减法</p>
 <p>✳       乘法</p>
-<p>&#x2F;           除法</p>
-<p>**         幂运算（例如2✳✳3&#x3D;2的3次方&#x3D;2✖2✖2&#x3D;8）</p>
-<p>%         1.取余     （一正一负要公式），例如9%4&#x3D;1<br> 2.余数&#x3D;被除数-除数*商，例如9%(-4)&#x3D;-3       9-(-4)✳(-3)&#x3D;-3</p>
-<p>&#x2F;&#x2F;         整除（例如9➗4&#x3D;2.25，那么9整除4就是2，抹掉了小数点和小数后面的数）</p>
+<p>/           除法</p>
+<p>**         幂运算（例如2✳✳3=2的3次方=2✖2✖2=8）</p>
+<p>%         1.取余     （一正一负要公式），例如9%4=1<br> 2.余数=被除数-除数*商，例如9%(-4)=-3       9-(-4)✳(-3)=-3</p>
+<p>//         整除（例如9➗4=2.25，那么9整除4就是2，抹掉了小数点和小数后面的数）</p>
 <p>整除：一正一负往下取整。例如9➗-4得出来是-2.25，整除后是-3，如下图</p>
-<p><img src="https://jsd.cdn.zzko.cn/gh/CN-LPani/tu@main/2021Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/f67c1cdf6adcbe3411f604bd4733aa0c.7e6qarv7fi40.jpg" alt="无标题.png"></p>
-</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://CN-LPANI.github.io">LPani</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://cn-lpani.github.io/2022/02/06/2021Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">https://cn-lpani.github.io/2022/02/06/2021Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://CN-LPANI.github.io" target="_blank">LP Blog</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Python/">Python</a><a class="post-meta__tags" href="/tags/%E7%AC%94%E8%AE%B0/">笔记</a></div><div class="post_share"><div class="social-share" data-image="https://jsd.cdn.zzko.cn/gh/CN-LPani/tu@main/2021Python学习笔记/2021python学习笔记.3orupxd9tem0.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="waline-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content is-expand"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#print%E5%87%BD%E6%95%B0"><span class="toc-number">1.</span> <span class="toc-text">print函数</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%95%B0%E5%AD%97"><span class="toc-number">1.0.1.</span> <span class="toc-text">数字</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2"><span class="toc-number">1.0.2.</span> <span class="toc-text">字符串</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%90%AB%E6%9C%89%E8%BF%90%E7%AE%97%E7%AC%A6%E7%9A%84%E8%A1%A8%E8%BE%BE%E5%BC%8F"><span class="toc-number">1.0.3.</span> <span class="toc-text">含有运算符的表达式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%BE%93%E5%87%BA%E5%88%B0%E6%9C%AC%E5%9C%B0"><span class="toc-number">1.0.4.</span> <span class="toc-text">输出到本地()</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%8D%E6%8D%A2%E8%A1%8C%E8%BE%93%E5%87%BA"><span class="toc-number">1.0.5.</span> <span class="toc-text">不换行输出</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E4%BA%9B%E8%BD%AC%E4%B9%89%E5%AD%97%E7%AC%A6"><span class="toc-number">2.</span> <span class="toc-text">一些转义字符</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8E%9F%E5%AD%97%E7%AC%A6"><span class="toc-number">3.</span> <span class="toc-text">原字符</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%B8%8E%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81"><span class="toc-number">4.</span> <span class="toc-text">二进制与字符编码</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#chr%E5%87%BD%E6%95%B0"><span class="toc-number">4.0.1.</span> <span class="toc-text">chr函数</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#ord%E5%87%BD%E6%95%B0"><span class="toc-number">4.0.2.</span> <span class="toc-text">ord函数</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BF%9D%E7%95%99%E5%AD%97"><span class="toc-number">5.</span> <span class="toc-text">保留字</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%80%8E%E4%B9%88%E6%9F%A5%E8%AF%A2%E4%BF%9D%E7%95%99%E5%AD%97"><span class="toc-number">5.0.1.</span> <span class="toc-text">怎么查询保留字</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%A0%87%E8%AF%86%E7%AC%A6"><span class="toc-number">5.0.2.</span> <span class="toc-text">标识符</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%98%E9%87%8F"><span class="toc-number">6.</span> <span class="toc-text">变量</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8F%98%E9%87%8F%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A8"><span class="toc-number">6.0.1.</span> <span class="toc-text">变量的定义和使用</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E8%8E%B7%E5%8F%96%E6%A0%87%E8%AF%86%E3%80%81%E7%B1%BB%E5%9E%8B%E5%92%8C%E5%80%BC"><span class="toc-number">6.0.2.</span> <span class="toc-text">如何获取标识、类型和值</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8F%98%E9%87%8F%E7%9A%84%E5%A4%9A%E6%AC%A1%E8%B5%8B%E5%80%BC"><span class="toc-number">6.0.3.</span> <span class="toc-text">变量的多次赋值</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B8%B8%E8%A7%81%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B"><span class="toc-number">7.</span> <span class="toc-text">常见的数据类型</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%95%B4%E6%95%B0%E7%B1%BB%E5%9E%8B%EF%BC%88integer%EF%BC%8C%E7%AE%80%E5%86%99%E4%B8%BAint%EF%BC%89"><span class="toc-number">7.0.1.</span> <span class="toc-text">整数类型（integer，简写为int）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%B5%AE%E7%82%B9%E6%95%B0%E7%B1%BB%E5%9E%8B"><span class="toc-number">7.0.2.</span> <span class="toc-text">浮点数类型</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B8%83%E5%B0%94%E7%B1%BB%E5%9E%8B%EF%BC%88bool%EF%BC%8C%E5%85%A8%E7%A7%B0Boolean%EF%BC%89"><span class="toc-number">7.0.3.</span> <span class="toc-text">布尔类型（bool，全称Boolean）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%B1%BB%E5%9E%8B"><span class="toc-number">7.0.4.</span> <span class="toc-text">字符串类型</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2"><span class="toc-number">7.0.5.</span> <span class="toc-text">数据类型转换</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2%E5%87%BD%E6%95%B0"><span class="toc-number">7.0.6.</span> <span class="toc-text">数据类型转换函数</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AE%A1%E7%AE%97"><span class="toc-number">8.</span> <span class="toc-text">计算</span></a></li></ol></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2022 - 2025 By LPani</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">nb啊你竟然翻到了我的底部（</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.12.0"></script><script src="/js/main.js?v=4.12.0"></script><script src="/js/tw_cn.js?v=4.12.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.32/dist/fancybox/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@5.2.0/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar@0.1.16/dist/snackbar.min.js"></script><script>function panguFn () {
+<p><img src="https://jsd.cdn.zzko.cn/gh/CN-LPani/tu@main/2021Python学习笔记/f67c1cdf6adcbe3411f604bd4733aa0c.7e6qarv7fi40.jpg" alt="无标题.png"></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://CN-LPANI.github.io">LPani</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://cn-lpani.github.io/2022/02/06/2021Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">https://cn-lpani.github.io/2022/02/06/2021Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://CN-LPANI.github.io" target="_blank">LP Blog</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Python/">Python</a><a class="post-meta__tags" href="/tags/%E7%AC%94%E8%AE%B0/">笔记</a></div><div class="post_share"><div class="social-share" data-image="/images/LPani.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="waline-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content is-expand"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#print%E5%87%BD%E6%95%B0"><span class="toc-number">1.</span> <span class="toc-text">print函数</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%95%B0%E5%AD%97"><span class="toc-number">1.0.1.</span> <span class="toc-text">数字</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2"><span class="toc-number">1.0.2.</span> <span class="toc-text">字符串</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%90%AB%E6%9C%89%E8%BF%90%E7%AE%97%E7%AC%A6%E7%9A%84%E8%A1%A8%E8%BE%BE%E5%BC%8F"><span class="toc-number">1.0.3.</span> <span class="toc-text">含有运算符的表达式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%BE%93%E5%87%BA%E5%88%B0%E6%9C%AC%E5%9C%B0"><span class="toc-number">1.0.4.</span> <span class="toc-text">输出到本地()</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%8D%E6%8D%A2%E8%A1%8C%E8%BE%93%E5%87%BA"><span class="toc-number">1.0.5.</span> <span class="toc-text">不换行输出</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E4%BA%9B%E8%BD%AC%E4%B9%89%E5%AD%97%E7%AC%A6"><span class="toc-number">2.</span> <span class="toc-text">一些转义字符</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8E%9F%E5%AD%97%E7%AC%A6"><span class="toc-number">3.</span> <span class="toc-text">原字符</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%B8%8E%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81"><span class="toc-number">4.</span> <span class="toc-text">二进制与字符编码</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#chr%E5%87%BD%E6%95%B0"><span class="toc-number">4.0.1.</span> <span class="toc-text">chr函数</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#ord%E5%87%BD%E6%95%B0"><span class="toc-number">4.0.2.</span> <span class="toc-text">ord函数</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BF%9D%E7%95%99%E5%AD%97"><span class="toc-number">5.</span> <span class="toc-text">保留字</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%80%8E%E4%B9%88%E6%9F%A5%E8%AF%A2%E4%BF%9D%E7%95%99%E5%AD%97"><span class="toc-number">5.0.1.</span> <span class="toc-text">怎么查询保留字</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%A0%87%E8%AF%86%E7%AC%A6"><span class="toc-number">5.0.2.</span> <span class="toc-text">标识符</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%98%E9%87%8F"><span class="toc-number">6.</span> <span class="toc-text">变量</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8F%98%E9%87%8F%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A8"><span class="toc-number">6.0.1.</span> <span class="toc-text">变量的定义和使用</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E8%8E%B7%E5%8F%96%E6%A0%87%E8%AF%86%E3%80%81%E7%B1%BB%E5%9E%8B%E5%92%8C%E5%80%BC"><span class="toc-number">6.0.2.</span> <span class="toc-text">如何获取标识、类型和值</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8F%98%E9%87%8F%E7%9A%84%E5%A4%9A%E6%AC%A1%E8%B5%8B%E5%80%BC"><span class="toc-number">6.0.3.</span> <span class="toc-text">变量的多次赋值</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B8%B8%E8%A7%81%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B"><span class="toc-number">7.</span> <span class="toc-text">常见的数据类型</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%95%B4%E6%95%B0%E7%B1%BB%E5%9E%8B%EF%BC%88integer%EF%BC%8C%E7%AE%80%E5%86%99%E4%B8%BAint%EF%BC%89"><span class="toc-number">7.0.1.</span> <span class="toc-text">整数类型（integer，简写为int）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%B5%AE%E7%82%B9%E6%95%B0%E7%B1%BB%E5%9E%8B"><span class="toc-number">7.0.2.</span> <span class="toc-text">浮点数类型</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B8%83%E5%B0%94%E7%B1%BB%E5%9E%8B%EF%BC%88bool%EF%BC%8C%E5%85%A8%E7%A7%B0Boolean%EF%BC%89"><span class="toc-number">7.0.3.</span> <span class="toc-text">布尔类型（bool，全称Boolean）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%B1%BB%E5%9E%8B"><span class="toc-number">7.0.4.</span> <span class="toc-text">字符串类型</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2"><span class="toc-number">7.0.5.</span> <span class="toc-text">数据类型转换</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2%E5%87%BD%E6%95%B0"><span class="toc-number">7.0.6.</span> <span class="toc-text">数据类型转换函数</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AE%A1%E7%AE%97"><span class="toc-number">8.</span> <span class="toc-text">计算</span></a></li></ol></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2022 - 2025 By LPani</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">nb啊你竟然翻到了我的底部（</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.12.0"></script><script src="/js/main.js?v=4.12.0"></script><script src="/js/tw_cn.js?v=4.12.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.32/dist/fancybox/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@5.2.0/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar@0.1.16/dist/snackbar.min.js"></script><script>function panguFn () {
   if (typeof pangu === 'object') pangu.autoSpacingPage()
   else {
     getScript('https://cdn.jsdelivr.net/npm/pangu@4.0.7/dist/browser/pangu.min.js')
